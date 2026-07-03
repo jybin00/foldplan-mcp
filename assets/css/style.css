@@ -447,6 +447,11 @@ td {
   font-size: 14px;
 }
 
+.muted-inline {
+  color: var(--faint);
+  font-size: 0.92em;
+}
+
 tr:last-child td {
   border-bottom: 0;
 }

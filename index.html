@@ -37,8 +37,8 @@
               <a class="button-secondary" href="#prompts">프롬프트 예시</a>
             </div>
             <div class="hero-note">
-              <span><strong>MCP server URL:</strong> <code>https://foldplan.com/mcp</code></span>
-              <span><strong>Current access:</strong> 초대받은 베타 사용자 또는 개발 환경에서 발급된 <code>mcp_</code> Bearer token이 필요합니다.</span>
+              <span><strong>Beta MCP server URL:</strong> <code>https://foldplan.com/mcp</code></span>
+              <span><strong>Current access:</strong> 주소는 준비되어 있지만 공개 runtime은 꺼져 있습니다. 초대받은 베타 사용자 또는 개발 환경에서 발급된 <code>mcp_</code> Bearer token이 필요합니다.</span>
             </div>
           </div>
           <aside class="diagram-card" aria-label="FoldPlan MCP flow diagram">
@@ -126,7 +126,7 @@
               <tbody>
                 <tr>
                   <td>Server URL</td>
-                  <td><code>https://foldplan.com/mcp</code></td>
+                  <td><code>https://foldplan.com/mcp</code> <span class="muted-inline">베타/활성화된 환경에서 사용</span></td>
                 </tr>
                 <tr>
                   <td>Resource URI</td>
@@ -147,6 +147,10 @@
                 <tr>
                   <td>Read scope</td>
                   <td><code>mcp.read</code></td>
+                </tr>
+                <tr>
+                  <td>Public runtime</td>
+                  <td>현재 공개 self-serve 접근은 꺼져 있습니다. 권한이 없으면 <code>mcp_runtime_disabled</code>가 정상 응답입니다.</td>
                 </tr>
               </tbody>
             </table>
