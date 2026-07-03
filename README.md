@@ -1,6 +1,10 @@
 # FoldPlan MCP
 
-Public static explanation page for the FoldPlan MCP read/write safety model.
+Public static user guide for FoldPlan MCP.
+
+The page explains how MCP-supported AI tools can read FoldPlan planner context,
+suggest planner changes, and apply only user-confirmed changes through a safe
+preview-first flow.
 
 Published URL:
 
