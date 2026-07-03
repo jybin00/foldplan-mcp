@@ -2,9 +2,9 @@
 
 Public static user guide for FoldPlan MCP.
 
-The page explains how MCP-supported AI tools can read FoldPlan planner context,
-suggest planner changes, and apply only user-confirmed changes through a safe
-preview-first flow.
+The page explains how MCP-supported AI tools can connect to FoldPlan, which
+tools are available, how to test the MCP endpoint, and what is still limited to
+private beta or development access.
 
 Published URL:
 

@@ -52,6 +52,25 @@ code {
   font-size: 0.92em;
 }
 
+pre {
+  overflow-x: auto;
+  margin: 12px 0 0;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #242321;
+  padding: 14px;
+  color: #fffdf8;
+  line-height: 1.55;
+}
+
+pre code {
+  display: block;
+  background: transparent;
+  padding: 0;
+  color: inherit;
+  white-space: pre;
+}
+
 .wrap {
   width: min(100% - 40px, 1120px);
   margin: 0 auto;
@@ -364,6 +383,10 @@ code {
   gap: 16px;
 }
 
+.feature-matrix {
+  margin-top: 16px;
+}
+
 .matrix ul,
 .check-list {
   margin: 0;
@@ -383,6 +406,53 @@ code {
 
 .status-panel {
   min-height: 188px;
+}
+
+.setup-panel {
+  min-height: 0;
+  margin-bottom: 16px;
+}
+
+.table-wrap {
+  overflow-x: auto;
+  margin-bottom: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 620px;
+}
+
+th,
+td {
+  border-bottom: 1px solid var(--line);
+  padding: 14px 16px;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background: var(--surface-strong);
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 850;
+}
+
+td {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+tr:last-child td {
+  border-bottom: 0;
+}
+
+.setup-steps li > span:not(.step) {
+  min-width: 0;
 }
 
 .site-footer {
